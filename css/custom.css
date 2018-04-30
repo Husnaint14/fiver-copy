@@ -1,0 +1,55 @@
+
+.container {
+    position: relative;
+    background: #fff url("https://i.pinimg.com/originals/01/1d/8f/011d8f401975909b50bf843d24be7e4b.jpg") center center ;  
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+
+    
+}
+
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+    color: #fff;
+
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+    background-image: #fff url("https://i.pinimg.com/originals/01/1d/8f/011d8f401975909b50bf843d24be7e4b.jpg") center center ; 
+
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+@media screen and (max-width:320px) {
+ input.form-textbox {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100%;
+ }
+}
